@@ -1,12 +1,14 @@
 
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
-import Header from './component/adminsite/Header';
+import ROOT from './router/ROUTES.js';
+
+const root=createBrowserRouter(ROOT)
 
 function App() {
   return (
-    <div className="App">
-          <Headers></Headers>
-    </div>
+
+    <RouterProvider router={root}/>
   );
 }
 
