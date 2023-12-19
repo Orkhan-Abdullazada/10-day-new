@@ -24,7 +24,7 @@ function Header() {
      <div className="header__around">
    <div className='around'> <i style={{marginLeft:'35px', marginTop:'15px'}} class="fa-solid fa-bars"></i> Browse categories <i style={{fontSize:'10px'}} class="fa-solid fa-chevron-down"></i></div>
    <div className='inp__btn'> <input style={{height:'50px', width:'350px'}} placeholder='Search entire store here' type="text" /><button style={{height:'50px', width:'120px', backgroundColor:'#62ab00', border:'none', color:'white'}}>Search</button> </div>
-   <div className='middle'>Login <br /> or Register<i style={{fontSize:'30px', color:'#62ab00'}} class="fa-solid fa-cart-arrow-down"></i> Shopping Cart
+   <div className='middle'>Login <br /> or Register<i style={{fontSize:'30px',color:'#62ab00',}} class="fa-brands fa-opencart"></i> Shopping Cart
     </div> <div className="sa"><p style={{color:'#62ab00'}}>£0.00</p> <i style={{fontSize:'10px'}} class="fa-solid fa-chevron-down"></i>
     <div className="sircle">1</div>
  </div> 
